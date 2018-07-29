@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 	
-	private static Scanner IN;
-	private static library LIB;
-	private static String MENU;
-	private static Calendar CAL;
+	private static Scanner IN; // Input
+	private static library LIB; // Library
+	private static String MENU; // Menu
+	private static Calendar CAL; // Calendar
 	private static SimpleDateFormat SDF;
 	
 	
@@ -120,7 +120,8 @@ public class Main {
 		output("\nEnded\n");
 	}	
 
-		private static void payFine() {
+	
+	private static void payFine() {
 		new PayFineUI(new PayFineControl()).run();		
 	}
 
