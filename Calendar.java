@@ -23,6 +23,7 @@ public class Calendar {
 	}
 	
 	public synchronized void setDate(Date date) {
+		//implementing try catch event handler
 		try {
 			cal.setTime(date);
 	        cal.set(java.util.Calendar.HOUR_OF_DAY, 0);  
