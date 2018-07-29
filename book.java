@@ -4,9 +4,9 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 public class book implements Serializable {
 	
-	private String T;
-	private String A;
-	private String C;
+	private String T; //Title
+	private String A; //Author
+	private String C; //Call Number
 	private int ID;
 	
 	private enum STATE { AVAILABLE, ON_LOAN, DAMAGED, RESERVED };
