@@ -1,3 +1,10 @@
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
 public class FixBookControl {
 	
 	private FixBookUI ui;
