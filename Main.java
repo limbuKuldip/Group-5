@@ -1,3 +1,10 @@
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
