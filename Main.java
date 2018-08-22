@@ -197,7 +197,7 @@ public class Main {
 			String lastName = input("Enter last name: ");
 			String firstName  = input("Enter first name: ");
 			String email = input("Enter email: ");
-			int phoneNo = Integer.valueOf(input("Enter phone number: ")).intValue();
+			String phoneNo = String.valueOf(input("Enter phone number: "));
 			member member = LIB.Add_mem(lastName, firstName, email, phoneNo);
 			output("\n" + member + "\n");
 			
