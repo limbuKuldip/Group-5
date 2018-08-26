@@ -1,3 +1,10 @@
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,17 +14,17 @@ import java.util.Map;
 @SuppressWarnings("serial")
 public class member implements Serializable {
 
-	private String LN;
-	private String FN;
-	private String EM;
-	private int PN;
-	private int ID;
+	private String LN; // Last Name
+	private String FN; // First Name
+	private String EM; // Email Address
+	private String PN; // Phone Number
+	private int ID; // Identification Number
 	private double FINES;
 	
 	private Map<Integer, loan> LNS;
 
 	
-	public member(String lastName, String firstName, String email, int phoneNo, int id) {
+	public member(String lastName, String firstName, String email, String phoneNo, int id) {
 		this.LN = lastName;
 		this.FN = firstName;
 		this.EM = email;

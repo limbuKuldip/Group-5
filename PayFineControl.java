@@ -1,3 +1,10 @@
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
 public class PayFineControl {
 	
 	private PayFineUI ui;

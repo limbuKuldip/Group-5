@@ -1,3 +1,10 @@
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
 public class ReturnBookControl {
 
 	private ReturnBookUI ui;
