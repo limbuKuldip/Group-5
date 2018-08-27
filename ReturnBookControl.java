@@ -10,7 +10,7 @@ public class ReturnBookControl {
 
 	public ReturnBookControl() {
 		this.library = library.INSTANCE();
-		state = CONTROL_STATE.INITIALISED;
+		state = CONTROL_STATE.INITIALISED; // set state as Initialized.
 	}
 	
 	
