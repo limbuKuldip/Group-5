@@ -13,8 +13,8 @@ public class PayFineUI {
 	
 	public PayFineUI(PayFineControl control) {
 		this.control = control;
-		input = new Scanner(System.in);
-		state = UI_STATE.INITIALISED;
+		input = new Scanner(System.in); // Accept input from user.
+		state = UI_STATE.INITIALISED; // Set the state as Initialized.
 		control.setUI(this);
 	}
 	
