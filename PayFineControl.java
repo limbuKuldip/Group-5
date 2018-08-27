@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 public class PayFineControl {
 	
 	private PayFineUI ui;

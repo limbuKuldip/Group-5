@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 public class ReturnBookControl {
 
 	private ReturnBookUI ui;
@@ -10,7 +20,11 @@ public class ReturnBookControl {
 
 	public ReturnBookControl() {
 		this.library = library.INSTANCE();
+<<<<<<< HEAD
 		state = CONTROL_STATE.INITIALISED; // set state as Initialized.
+=======
+		state = CONTROL_STATE.INITIALISED;
+>>>>>>> origin/master
 	}
 	
 	

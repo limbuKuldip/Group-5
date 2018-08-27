@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
@@ -15,6 +25,7 @@ public class Main {
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("\nLibrary Main Menu\n\n")
+<<<<<<< HEAD
 		  .append("  M  : add member\n")
 		  .append("  LM : list members\n")
 		  .append("\n")
@@ -30,6 +41,23 @@ public class Main {
 		  .append("\n")
 		  .append("  T  : increment date\n")
 		  .append("  Q  : quit\n")
+=======
+		  .append("  M  : Add member\n")
+		  .append("  LM : List members\n")
+		  .append("\n")
+		  .append("  B  : Add book\n")
+		  .append("  LB : List books\n")
+		  .append("  FB : Fix books\n")
+		  .append("\n")
+		  .append("  L  : Take out a loan\n")
+		  .append("  R  : Return a loan\n")
+		  .append("  LL : List loans\n")
+		  .append("\n")
+		  .append("  P  : Pay fine\n")
+		  .append("\n")
+		  .append("  T  : Increment date\n")
+		  .append("  Q  : Quit\n")
+>>>>>>> origin/master
 		  .append("\n")
 		  .append("Choice : ");
 		  

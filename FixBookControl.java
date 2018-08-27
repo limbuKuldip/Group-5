@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 public class FixBookControl {
 	
 	private FixBookUI ui;

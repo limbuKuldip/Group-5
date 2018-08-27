@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 import java.util.Scanner;
 
 
@@ -13,8 +23,13 @@ public class PayFineUI {
 	
 	public PayFineUI(PayFineControl control) {
 		this.control = control;
+<<<<<<< HEAD
 		input = new Scanner(System.in); // Accept input from user.
 		state = UI_STATE.INITIALISED; // Set the state as Initialized.
+=======
+		input = new Scanner(System.in);
+		state = UI_STATE.INITIALISED;
+>>>>>>> origin/master
 		control.setUI(this);
 	}
 	

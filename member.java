@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -86,7 +96,11 @@ public class member implements Serializable {
 
 
 	public void addFine(double fine) {
+<<<<<<< HEAD
 		FINES = Fines + fine; // Same as Fines += fines.
+=======
+		FINES += fine;
+>>>>>>> origin/master
 	}
 	
 	public double payFine(double amount) {

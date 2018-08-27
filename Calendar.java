@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -26,10 +36,17 @@ public class Calendar {
 		//implementing try catch event handler
 		try {
 			cal.setTime(date);
+<<<<<<< HEAD
 	        cal.set(java.util.Calendar.HOUR_OF_DAY, 0);  
 	        cal.set(java.util.Calendar.MINUTE, 0);  
 	        cal.set(java.util.Calendar.SECOND, 0);  
 	        cal.set(java.util.Calendar.MILLISECOND, 0);
+=======
+	        cal.set(java.util.Calendar.HOUR_OF_DAY, 0);   // Hour of Day
+	        cal.set(java.util.Calendar.MINUTE, 0);  // Minute
+	        cal.set(java.util.Calendar.SECOND, 0);  // Second
+	        cal.set(java.util.Calendar.MILLISECOND, 0); // Millisecond
+>>>>>>> origin/master
 		}
 		catch (Exception e) {
 			throw new RuntimeException(e);

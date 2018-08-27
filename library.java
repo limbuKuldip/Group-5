@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/** 
+    @author
+	@version
+	@since
+	
+**/
+
+>>>>>>> origin/master
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -15,7 +25,10 @@ import java.util.Map;
 @SuppressWarnings("serial")
 public class library implements Serializable {
 
+<<<<<<< HEAD
 	private static final long serialVersionUID = -9130643060530241418L;
+=======
+>>>>>>> origin/master
 	private static final String LIBRARY_FILE = "library.obj";
 	private static final int LOAN_LIMIT = 2;
 	private static final int LOAN_PERIOD = 2;

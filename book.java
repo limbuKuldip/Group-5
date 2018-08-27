@@ -14,10 +14,17 @@ public class book implements Serializable {
 	
 	
 	public book(String author, String title, String callNo, int id) {
+<<<<<<< HEAD
 		this.A = author;
 		this.T = title;
 		this.C = callNo;
 		this.ID = id;
+=======
+		this.A = author; //Author Name
+		this.T = title; // Book Title
+		this.C = callNo; // Contact Number
+		this.ID = id; // Identification Number
+>>>>>>> origin/master
 		this.state = STATE.AVAILABLE;
 	}
 	
