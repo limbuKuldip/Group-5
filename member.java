@@ -86,7 +86,7 @@ public class member implements Serializable {
 
 
 	public void addFine(double fine) {
-		FINES += fine;
+		FINES = Fines + fine; // Same as Fines += fines.
 	}
 	
 	public double payFine(double amount) {
