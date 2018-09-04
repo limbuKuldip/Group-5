@@ -12,6 +12,8 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 
+// This is a comment.
+
 public class Main {
 	
 	private static Scanner IN; // Input
